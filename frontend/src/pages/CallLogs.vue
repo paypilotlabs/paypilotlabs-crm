@@ -59,7 +59,7 @@
       )
     "
     :filtered="!!Object.keys(callLogs.params?.filters || {}).length"
-    docsLink="https://docs.frappe.io/crm/call-log"
+    docsLink="https://paypilotlabs.com/roadmap/"
     @create="createCallLog()"
   />
   <CallLogDetailModal

@@ -6,7 +6,7 @@
           <div class="flex flex-col items-center">
             <CRMLogo class="mb-3 size-12" />
             <Dialog.Title as-child>
-              <h3 class="text-2xl-semibold text-ink-gray-9">Frappe CRM</h3>
+              <h3 class="text-2xl-semibold text-ink-gray-9">PayPilotLabs Sales</h3>
             </Dialog.Title>
           </div>
         </div>
@@ -51,7 +51,7 @@ let show = defineModel({ type: Boolean })
 let links = [
   {
     label: __('Website'),
-    url: 'https://frappe.io/crm',
+    url: 'https://paypilotlabs.com/roadmap/',
     icon: LucideGlobe,
   },
   {
@@ -61,7 +61,7 @@ let links = [
   },
   {
     label: __('Documentation'),
-    url: 'https://docs.frappe.io/crm',
+    url: 'https://paypilotlabs.com/roadmap/',
     icon: LucideBookOpen,
   },
   {
@@ -71,7 +71,7 @@ let links = [
   },
   {
     label: __('Contact Support'),
-    url: 'https://support.frappe.io',
+    url: 'https://paypilotlabs.com/roadmap/',
     icon: LucideHeadset,
   },
 ]

@@ -8,7 +8,7 @@
           </h2>
           <Tooltip :text="__('View documentation')">
             <a
-              href="https://docs.frappe.io/crm/settings/sales-hierarchy"
+              href="https://paypilotlabs.com/roadmap/"
               target="_blank"
             >
               <LucideCircleQuestionMark class="h-4 w-4 text-ink-gray-6" />

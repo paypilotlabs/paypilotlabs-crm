@@ -1,4 +1,4 @@
-# Frappe CRM review guidance
+# PayPilotLabs Sales review guidance
 
 `AGENTS.md` describes the project, its key files and its commit style. This file
 says how to review a pull request to `frappe/crm`.

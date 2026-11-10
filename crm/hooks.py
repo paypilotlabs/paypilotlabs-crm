@@ -1,7 +1,7 @@
 import frappe
 
 app_name = "crm"
-app_title = "Frappe CRM"
+app_title = "PayPilotLabs Sales"
 app_publisher = "Frappe Technologies Pvt. Ltd."
 app_description = "Kick-ass Open Source CRM"
 app_email = "shariq@frappe.io"
