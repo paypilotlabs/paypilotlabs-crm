@@ -1,10 +1,13 @@
 import frappe
 
 app_name = "crm"
-app_title = "PayPilotLabs Sales"
-app_publisher = "Frappe Technologies Pvt. Ltd."
+from crm.brand import BRAND
+
+app_title = BRAND["product_name"]
+app_logo_url = BRAND["logo"]
+app_publisher = BRAND["company"]
 app_description = "Kick-ass Open Source CRM"
-app_email = "shariq@frappe.io"
+app_email = BRAND["email"]
 app_license = "AGPLv3"
 app_icon_url = "/assets/crm/images/logo.svg"
 app_icon_title = "CRM"
@@ -17,8 +20,8 @@ app_icon_route = "/crm"
 add_to_apps_screen = [
 	{
 		"name": "crm",
-		"logo": "/assets/crm/images/logo.svg",
-		"title": "CRM",
+		"logo": BRAND["logo"],
+		"title": BRAND["product_name"],
 		"route": "/crm",
 		"has_permission": "crm.api.check_app_permission",
 	}
