@@ -22,7 +22,7 @@ export default defineConfig(() => {
         manifest: {
           display: 'standalone',
           name: 'PayPilotLabs Sales',
-          short_name: 'PayPilotLabs Sales',
+          short_name: 'Sales',
           start_url: '/crm',
           description:
             'Modern & 100% Open-source CRM tool to supercharge your sales operations',
