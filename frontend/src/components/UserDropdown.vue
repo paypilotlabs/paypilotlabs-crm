@@ -158,7 +158,8 @@ function getStandardItem(item) {
         icon: h(FrappeCloudIcon),
         label: __(item.label),
         onClick: () => confirmLoginToFrappeCloud(),
-        condition: () => !isMobileView.value && window.is_fc_site,
+        // PayPilotLabs is self-hosted: the upstream hosting login is never shown
+        condition: () => false,
       }
     case 'about':
       return {
