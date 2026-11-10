@@ -258,17 +258,17 @@ async function initMap() {
     { attribution: '© Esri © OpenStreetMap Contributors' },
   )
   const labelsLayer = L.tileLayer(
-    'https://tiles.stadiamaps.com/tiles/stamen_toner_labels/{z}/{x}/{y}{r}.png',
+    'https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png',
     {
       attribution:
-        '© <a href="https://www.stadiamaps.com/">Stadia Maps</a> © <a href="https://www.stamen.com/">Stamen Design</a>',
+        '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, HOT, OpenTopoMap (CC-BY-SA)',
     },
   )
   const terrainLayer = L.tileLayer(
-    'https://tiles.stadiamaps.com/tiles/stamen_terrain_lines/{z}/{x}/{y}{r}.png',
+    'https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png',
     {
       attribution:
-        '© <a href="https://www.stadiamaps.com/">Stadia Maps</a> © <a href="https://www.stamen.com/">Stamen Design</a>',
+        '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, HOT, OpenTopoMap (CC-BY-SA)',
     },
   )
 
