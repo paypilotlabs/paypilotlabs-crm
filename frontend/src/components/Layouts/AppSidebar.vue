@@ -681,7 +681,6 @@ const articles = ref([
       { name: 'twilio', title: __('Twilio') },
       { name: 'exotel', title: __('Exotel') },
       { name: 'whatsapp', title: __('WhatsApp') },
-      { name: 'erpnext', title: __('ERPNext') },
     ],
   },
   {

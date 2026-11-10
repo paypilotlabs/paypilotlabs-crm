@@ -119,7 +119,7 @@ const state = reactive({
 
 const info = {
   description: __('To know more about setting up email accounts, click'),
-  link: 'https://docs.erpnext.com/docs/user/manual/en/email-account',
+  link: 'https://paypilotlabs.com/roadmap/',
 }
 
 const isCustomService = computed(() => {
