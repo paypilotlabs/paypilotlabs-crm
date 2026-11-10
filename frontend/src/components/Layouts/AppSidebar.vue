@@ -684,7 +684,7 @@ const articles = ref([
     ],
   },
   {
-    title: __('PayPilotLabs Sales mobile'),
+    title: __('PayPilotLabs CRM mobile'),
     opened: false,
     subArticles: [
       { name: 'mobile-app-installation', title: __('Mobile App Installation') },

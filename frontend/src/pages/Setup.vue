@@ -44,7 +44,7 @@
       <SetupTelemetryConsent class="mb-3" />
       <footer class="flex items-center gap-2 text-sm text-ink-gray-5">
         <CRMLogo class="size-4" />
-        PayPilotLabs Sales
+        PayPilotLabs CRM
       </footer>
     </section>
     <SetupPreview
@@ -203,7 +203,7 @@ async function markSetupDone() {
   }
 }
 
-usePageMeta(() => ({ title: __('Set up PayPilotLabs Sales') }))
+usePageMeta(() => ({ title: __('Set up PayPilotLabs CRM') }))
 </script>
 
 <style scoped>
