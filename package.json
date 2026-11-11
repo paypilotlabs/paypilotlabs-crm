@@ -1,7 +1,7 @@
 {
 	"private": true,
 	"type": "module",
-	"name": "crm",
+	"name": "paypilotlabs-crm",
 	"description": "PayPilotLabs CRM: sales CRM for small teams, based on the open-source Frappe CRM.",
 	"repository": {
 		"type": "git",
