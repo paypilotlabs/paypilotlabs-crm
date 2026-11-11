@@ -7,10 +7,11 @@ apps-screen tile. Logo files live in crm/public/images/paypilotlabs/.
 BRAND = {
 	"product_name": "PayPilotLabs CRM",
 	"short_name": "CRM",
+	"description": "Sales CRM for small teams: leads, deals, contacts and a Kanban pipeline",
 	"company": "PayPilotLabs",
 	"website": "https://paypilotlabs.com",
 	"support_url": "https://paypilotlabs.com/roadmap/",
-	"email": "dev@paypilotlabs.com",  # placeholder: change to the real support address
+	"email": "founder@paypilotlabs.com",
 	"logo": "/assets/crm/images/paypilotlabs/symbol-black.svg",
 	"logo_dark": "/assets/crm/images/paypilotlabs/symbol-white.svg",
 	"wordmark": "/assets/crm/images/paypilotlabs/logo-black.svg",
