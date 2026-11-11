@@ -56,7 +56,7 @@ let links = [
   },
   {
     label: __('GitHub Repository'),
-    url: 'https://github.com/frappe/crm',
+    url: 'https://github.com/paypilotlabs/paypilotlabs-crm',
     icon: GitHubIcon,
   },
   {
@@ -66,7 +66,7 @@ let links = [
   },
   {
     label: __('Report an Issue'),
-    url: 'https://github.com/frappe/crm/issues',
+    url: 'https://paypilotlabs.com/roadmap/',
     icon: LucideBug,
   },
   {
