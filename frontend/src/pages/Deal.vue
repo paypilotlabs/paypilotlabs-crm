@@ -800,7 +800,7 @@ const tabs = computed(() => {
 
 const { activeTab, changeTabTo } = useActiveTabManager(tabs, 'lastDealTab')
 
-// keep the active tab visible — later tabs (e.g. Quotations) otherwise stay
+// keep the active tab visible — later tabs otherwise stay
 // scrolled out of view behind the right panel
 const dealTabsRef = ref(null)
 function scrollActiveTabIntoView() {
