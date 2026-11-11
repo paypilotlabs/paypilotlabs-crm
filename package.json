@@ -2,16 +2,16 @@
 	"private": true,
 	"type": "module",
 	"name": "crm",
-	"description": "Frappe CRM helps you work, not slow you down. Open-source, intuitive, and free from extra costs.",
+	"description": "PayPilotLabs CRM: sales CRM for small teams, based on the open-source Frappe CRM.",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/frappe/crm.git"
+		"url": "git+https://github.com/paypilotlabs/paypilotlabs-crm.git"
 	},
-	"homepage": "https://frappe.io/crm",
-	"author": "Frappe Technologies Pvt. Ltd.",
-	"license": "GPL-3.0",
+	"homepage": "https://paypilotlabs.com",
+	"author": "PayPilotLabs (based on Frappe CRM by Frappe Technologies Pvt. Ltd.)",
+	"license": "AGPL-3.0-only",
 	"bugs": {
-		"url": "https://github.com/frappe/crm/issues"
+		"url": "https://paypilotlabs.com/roadmap/"
 	},
 	"scripts": {
 		"postinstall": "cd frontend && yarn install --check-files",

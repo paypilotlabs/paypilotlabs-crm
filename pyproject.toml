@@ -3,7 +3,10 @@ name = "crm"
 authors = [
     { name = "Frappe Technologies Pvt. Ltd.", email = "shariq@frappe.io"}
 ]
-description = "Kick-ass Open Source CRM"
+maintainers = [
+    { name = "PayPilotLabs" }
+]
+description = "PayPilotLabs CRM: sales CRM for small teams, based on Frappe CRM"
 requires-python = ">=3.10"
 readme = "README.md"
 dynamic = ["version"]
@@ -80,6 +83,7 @@ indent-style = "tab"
 docstring-code-format = true
 
 [project.urls]
-Homepage = "https://frappe.io/crm"
-Repository = "https://github.com/frappe/crm.git"
-"Bug Reports" = "https://github.com/frappe/crm/issues"
+Homepage = "https://paypilotlabs.com"
+Repository = "https://github.com/paypilotlabs/paypilotlabs-crm.git"
+"Bug Reports" = "https://paypilotlabs.com/roadmap/"
+Upstream = "https://github.com/frappe/crm"
