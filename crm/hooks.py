@@ -6,10 +6,10 @@ from crm.brand import BRAND
 app_title = BRAND["product_name"]
 app_logo_url = BRAND["logo"]
 app_publisher = BRAND["company"]
-app_description = "Kick-ass Open Source CRM"
+app_description = BRAND["description"]
 app_email = BRAND["email"]
 app_license = "AGPLv3"
-app_icon_url = "/assets/crm/images/logo.svg"
+app_icon_url = BRAND["logo"]
 app_icon_title = "CRM"
 app_icon_route = "/crm"
 
