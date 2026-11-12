@@ -27,5 +27,3 @@ AGENTS.md
 .claude
 .pi
 .patch
-# local frappe_docker checkout used by docker/build.sh
-.frappe_docker/
