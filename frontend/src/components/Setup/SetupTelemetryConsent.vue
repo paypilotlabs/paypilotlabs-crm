@@ -17,7 +17,8 @@ import { getCurrentInstance, ref } from 'vue'
 
 const telemetry = useTelemetry()
 const app = getCurrentInstance().appContext.app
-const enabled = ref(true)
+// Off until the admin opts in.
+const enabled = ref(false)
 const saving = ref(false)
 const error = ref('')
 
