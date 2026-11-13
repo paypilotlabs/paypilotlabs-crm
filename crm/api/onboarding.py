@@ -62,6 +62,17 @@ def get_prefilled_setup_args():
 	}
 
 
+@frappe.whitelist(methods=["POST"])
+def set_usage_data_sharing(enabled: bool):
+	"""Save the "Share usage data" choice from the CRM setup.
+
+	Writes only this field: saving the whole System Settings document fails on a new site until
+	the desk setup wizard has filled the mandatory language and time zone.
+	"""
+	frappe.only_for("System Manager")
+	frappe.db.set_single_value("System Settings", "enable_telemetry", 1 if enabled else 0)
+
+
 @frappe.whitelist()
 def get_first_lead(name: str | None = None):
 	# prefer the lead the user created during onboarding, if it still exists, is unconverted
