@@ -22,12 +22,7 @@ const saving = ref(false)
 const error = ref('')
 
 async function persistPreference(share) {
-  await call('frappe.client.set_value', {
-    doctype: 'System Settings',
-    name: 'System Settings',
-    fieldname: 'enable_telemetry',
-    value: share ? 1 : 0,
-  })
+  await call('crm.api.onboarding.set_usage_data_sharing', { enabled: share })
   if (share) await telemetryPlugin.install(app, { app_name: 'crm' })
   else telemetry.disable()
 }
